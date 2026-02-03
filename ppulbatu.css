@@ -1,0 +1,126 @@
+body {
+    /* La imagen de fondo */
+    background-image: url('dibujos folder/ppulbatu_image.png');
+    background-size: cover; /* Para que cubra toda la pantalla */
+    background-position: center;
+    background-attachment: fixed; /* Para que no se mueva al hacer scroll */
+    display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        min-height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+        margin: 0;
+        font-family: sans-serif;
+}
+         @font-face {
+    font-family: 'NickFont';
+    src: url('nickelodeon_sans_by_lyricofficial_ddznty51.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; }
+
+    .heading, controls{
+        font-family: Nickfont;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 1px black;
+        text-align: center;
+        font-size: 50px;
+
+    }
+    body{
+        background-color: rgba(24, 116, 221, 0.877);
+    }
+    .ppulbatu_image{
+        margin: auto;
+        display: block;
+        width: 500px;
+
+    }/* 1. El CONTENEDOR es el que manda el centrado */
+.color {
+    display: flex;
+    justify-content: center; /* Centra horizontal */
+    align-items: center;     /* Centra vertical */
+    height: 150px;           /* Dale una altura al div para notar el centrado vertical */
+    width: 100%;             /* Que ocupe todo el ancho para poder centrar */
+}
+input[type="color"] {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #000;
+    border-radius: 50%; /* Lo hace circular */
+    cursor: pointer;
+    padding: 0;
+    overflow: hidden;
+}
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column; /* Pone el nombre arriba y el cuadro abajo */
+    align-items: center;    /* Los centra horizontalmente */
+    justify-content: center;/* Los centra verticalmente */
+    gap: 10px;              /* Espacio entre el label y el input */
+    margin-top: 20px;       /* Espacio respecto a lo que haya arriba */
+    width: 100%;            /* Asegura que use todo el ancho para calcular el centro */
+}
+
+.label {
+    font-family: 'Nickfont', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.input {
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 250px;           /* Dale un ancho para que se vea mejor */
+    text-align: center;     /* Centra el texto que escribes dentro */
+}
+.button_moa{
+    font-family: Nickfont;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(255, 119, 142);
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.button_moa:hover{
+    opacity: 0.8;
+}
+.button_moa:active{
+    opacity: 0.2;
+}
+.heading_moa{
+     font-family: Nickfont;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 1px black;
+        text-align: center;
+        font-size: 50px;
+}
+.controls{
+    font-family: Nickfont;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 1px black;
+        text-align: center;
+        font-size: 50px;
+}
+.heading_color{
+    font-family: Nickfont;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 1px black;
+        text-align: center;
+        font-size: 50px;
+}
+.cleaning_button{
+    font-family: Nickfont;
+    background-color: pink;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+
+}
